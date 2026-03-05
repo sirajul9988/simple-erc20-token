@@ -1,0 +1,18 @@
+{
+  "name": "simple-erc20-token",
+  "version": "1.0.0",
+  "description": "Standard ERC-20 token repository",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "node deploy_token.js"
+  },
+  "license": "MIT"
+}
